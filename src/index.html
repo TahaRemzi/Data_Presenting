@@ -8,19 +8,27 @@
     </head>
     <body>
         <main class="flex">
-            <div class="full-height w-60 background-image-div">
+            <div class="full-height w-60 background-image-div first">
             </div>
-            <!-- <div class="show">
-                <h1>Today's</h1>
-                <h2></h2>
-                <div>
-                    <input type="text" id="myInput" value="Hello, World!">
-                    <button onclick="copyToClipboard()">
-                        <i class="fa fa-copy"></i>
+            <div class="show">
+                <h1 class="w-100 marginb-60 font-a">Today's</h1>
+                <h2 class="Segoe w-100 font-b">Token</h2>
+                <div class="back-white flex w-80">
+                    <input type="text" id="myinput_1"  class="margin-0">
+                    <button onclick="copyToClipboard_1()" class="copy" aria-label="Copy to clipboard">
+                        <i class="fa fa-copy color-white"></i>
                     </button>
                 </div>
-            </div> -->
+                <h2 class="Segoe w-100  margint-93 font-b">Deep Link</h2>
+                <div class="back-white flex w-80 marginb-93">
+                    <input type="text" id="myinput_2"  class="margin-0">
+                    <button onclick="copyToClipboard_2()" class="copy" aria-label="Copy to clipboard">
+                        <i class="fa fa-copy color-white"></i>
+                    </button>
+                </div>
+            </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
 
