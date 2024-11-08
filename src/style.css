@@ -1,0 +1,28 @@
+@import url(font-awesome.min.css);
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+}
+
+.full-height{
+    height: 100vh;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.background-image-div {
+    background-image: url('../img/CRYPTO_TOKENS_800x500.png'); /* Set the image URL */
+    background-position: left;
+    filter: blur(0.5px);
+}
